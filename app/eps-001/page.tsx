@@ -9,7 +9,7 @@ import Image, { StaticImageData } from "next/image";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Replicate Part 01 - Spotify Auth",
+  title: "Replicate 01 - Spotify Auth",
   description: "Alimnfl make replicate design for Content Tiktok.",
 };
 
@@ -28,14 +28,14 @@ export default function Page() {
 
   return (
     <>
-      <div className=" min-w-screen min-h-screen items-center relative w-full md:bg-black bg-[#121212] p-16 md:p-10 flex flex-col">
+      <div className="min-w-screen min-h-screen items-center relative w-full md:bg-black bg-[#121212] p-16 md:p-10 flex flex-col">
         <div
           className="hidden md:flex absolute min-w-screen min-h-screen -top-10"
           style={{
             background: "linear-gradient(to bottom, #303030 0%, #000000 90%)",
           }}
         ></div>
-        <div className="flex flex-col items-center w-full gap-4 bg-[#121212] rounded-xl md:py-8 md:pb-14 relative max-w-[734px]">
+        <div className="flex my-14 flex-col items-center w-full gap-4 bg-[#121212] rounded-xl md:py-8 md:pb-14 relative max-w-[734px]">
           <div className="flex flex-col items-center gap-2 justify-center">
             <div className="md:w-[40px] w-[24px]">
               <Image src={SpotifyIcon} alt="test" />
